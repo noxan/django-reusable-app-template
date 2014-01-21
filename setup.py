@@ -11,7 +11,7 @@ def read(fname):
 setup(
     name='django-{{ app_name }}',
     version={{ app_name }}.__version__,
-    description='Template for django standalone applications.',
+    description='Template for standalone django applications.',
     long_description=read('README.md'),
     license='BSD',
     author='byteweaver',
