@@ -18,6 +18,7 @@ setup(
     author_email='contact@byteweaver.org',
     url='https://github.com/byteweaver/django-standalone-app-template',
     packages=find_packages(),
+    include_package_data=True,
     classifiers=[
         'Development Status :: 1 - Planning',
         'Environment :: Web Environment',
