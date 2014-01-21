@@ -18,6 +18,15 @@ setup(
     author_email='contact@byteweaver.org',
     url='https://github.com/byteweaver/django-standalone-app-template',
     packages=find_packages(),
+    classifiers=[
+        'Development Status :: 1 - Planning',
+        'Environment :: Web Environment',
+        'Intended Audience :: Developers',
+        'Framework :: Django',
+        'License :: OSI Approved :: BSD License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+    ],
     install_requires=[
         'django',
     ],
