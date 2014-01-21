@@ -35,6 +35,7 @@ setup(
         'django-nose',
         'coverage',
         'django-coverage',
+        'factory-boy',
     ],
     test_suite='{{ app_name }}.tests',
 )
