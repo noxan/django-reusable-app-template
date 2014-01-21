@@ -1,0 +1,3 @@
+include LICENSE
+include README.md
+include {{ app_name }}/templates/{{ app_name }}/*.html
