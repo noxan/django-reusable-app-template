@@ -11,12 +11,12 @@ def read(fname):
 setup(
     name='django-{{ app_name }}',
     version={{ app_name }}.__version__,
-    description='Template for standalone django applications.',
+    description='Template for reusable django applications.',
     long_description=read('README.md'),
     license='BSD',
     author='byteweaver',
     author_email='contact@byteweaver.org',
-    url='https://github.com/byteweaver/django-standalone-app-template',
+    url='https://github.com/byteweaver/django-reusable-app-template',
     packages=find_packages(),
     include_package_data=True,
     classifiers=[

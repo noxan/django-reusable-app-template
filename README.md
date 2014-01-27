@@ -1,12 +1,12 @@
 # django-{{ app_name }}
 
-Template for standalone django applications.
+Template for reusable django applications.
 
 All following sections are just dummies and may not work as excepted.
 
 ## Key features
 
-* Reusable template for new standalone django applications
+* Reusable template for new reusable django applications
 * ...
 
 ## Installation
