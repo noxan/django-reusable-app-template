@@ -37,5 +37,5 @@ setup(
         'django-coverage',
         'factory-boy',
     ],
-    test_suite='{{ app_name }}.tests',
+    test_suite='{{ app_name }}.tests.runtests.runtests',
 )
