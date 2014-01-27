@@ -32,7 +32,6 @@ setup(
         'django',
     ],
     tests_require=[
-        'django-nose',
         'coverage',
         'django-coverage',
         'factory-boy',
