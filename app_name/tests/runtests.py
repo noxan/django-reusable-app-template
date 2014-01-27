@@ -16,14 +16,17 @@ if not settings.configured:
             '{{ app_name }}',
         ),
         SECRET_KEY='testing-with-very-secure-key',
+        TEST_RUNNER='django_coverage.coverage_runner.CoverageRunner',
     )
 
 
 from django.test.utils import get_runner
 
 
+TestRunner = get_runner(settings)
+
+
 def runtests():
-    TestRunner = get_runner(settings)
     test_runner = TestRunner(verbosity=1, interactive=True, failfast=False)
     failures = test_runner.run_tests(['{{ app_name }}', ])
     sys.exit(failures)
