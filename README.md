@@ -34,3 +34,5 @@ Hook this app into your ``urls.py``:
         url(r'^your-url/$', include('{{ app_name }}.urls', namespace='{{ app_name }}')),
         ...
     )
+
+Run `python manage.py migrate` to create the {{app_name}} models.
